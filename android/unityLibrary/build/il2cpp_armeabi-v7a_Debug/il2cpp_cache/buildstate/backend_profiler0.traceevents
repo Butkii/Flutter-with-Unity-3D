@@ -1,0 +1,1069 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662921420574730, "dur":2078, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420576819, "dur":4789, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420581692, "dur":609, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420582340, "dur":1125, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420583467, "dur":101403, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420684871, "dur":116, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420684989, "dur":71, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420685198, "dur":256, "ph":"X", "name": "EmitBuildFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420685454, "dur":7175, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662921420582615, "dur":858, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420583476, "dur":34126, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420617622, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420617900, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420618016, "dur":2649, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\muv5_Posix2.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420620674, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420618008, "dur":2893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/7o16_osix2.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420620901, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420620991, "dur":1460, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\3hzq_c-api2.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420622459, "dur":265, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420620987, "dur":1737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/t4ga_-api2.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420622725, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420622810, "dur":513, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\l7w9_System0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420623330, "dur":365, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420622807, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/5ulr_stem0.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420623696, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420623786, "dur":759, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\q34q_System0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420624551, "dur":341, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420623782, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/r5gc_stem0.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420624893, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420624982, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"l3s9\\7h2r_eglib1.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420625074, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420624979, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 l3s9/zpu3_glib1.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420625126, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420625212, "dur":585, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626142, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-object-internals.h" }}
+,{ "pid":12345, "tid":1, "ts":1662921420625804, "dur":571, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420625208, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/gcsp_1_vm0.lump.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626376, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626525, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626605, "dur":213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626827, "dur":396, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420626521, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zwtp_dJNIModule.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420627224, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420627361, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420627824, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils\\StringView.h" }}
+,{ "pid":12345, "tid":1, "ts":1662921420627599, "dur":649, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420627325, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/yp7u_mscorlib7.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420628249, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420628482, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420628542, "dur":278, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420628826, "dur":324, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420628479, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/th0p_mscorlib13.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629150, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629297, "dur":199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629503, "dur":389, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629262, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/l0ei_pDataTable.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629893, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630022, "dur":224, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\utf8_util.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420629978, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/7isk_utf8_util.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630265, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630390, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\entropy_encode.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630354, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/b9w4_opy_encode.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630503, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630611, "dur":59, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\block_splitter.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630677, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630577, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/8q7t_k_splitter.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630744, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630817, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/8r3n_huffman.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630927, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420630996, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/sug9_ThreadImpl.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631096, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631268, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\codegen\\il2cpp-codegen-metadata.h" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631342, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\il2cpp-config-platforms.h" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631252, "dur":171, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631176, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/vsl7_ne_CodeGen.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631424, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631565, "dur":173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.Net\\Dns.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631748, "dur":219, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631524, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/wkwq_Dns.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420631968, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632091, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Runtime.CompilerServices\\RuntimeHelpers.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632311, "dur":274, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632053, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/02e0_imeHelpers.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632586, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632677, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/i0l6_adataUsage.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632786, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632958, "dur":279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32file-unity.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420633243, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420632921, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/fm4p_file-unity.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420633571, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420633715, "dur":421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\networking-missing.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420633711, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/0d0q_ng-missing.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634196, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634283, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/njp5_o-os-mutex.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634383, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634457, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/ogr3_d-list-set.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634585, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634716, "dur":99, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-context.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634828, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634676, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/0fl4_no-context.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634902, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420634987, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/d8j9_bsearch.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635110, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635196, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635193, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/q3yo_efinitions.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635397, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635484, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/djo0_inftrees.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635578, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635651, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/yjcd_gzread.o" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635710, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635836, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662921420635929, "dur":48934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420582696, "dur":782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420583481, "dur":1374, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.16f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\arm-linux-androideabi\\bin\\objcopy" }}
+,{ "pid":12345, "tid":2, "ts":1662921420583481, "dur":2162, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420585645, "dur":31973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420617626, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420618048, "dur":2300, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yx1k_Win324.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420620359, "dur":367, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420618031, "dur":2696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/jcva_in324.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420620727, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420620829, "dur":447, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\3hzq_c-api1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420621344, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_CountdownTimer.h" }}
+,{ "pid":12345, "tid":2, "ts":1662921420621283, "dur":283, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420620826, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ql6r_-api1.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420621567, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420621920, "dur":1438, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420623372, "dur":350, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420621913, "dur":1810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/medq_1_vm2.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420623723, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420623825, "dur":1177, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\wgjg_Mono0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420625011, "dur":309, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420623822, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/xlzq_Mono0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420625321, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420625462, "dur":378, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\rle8_utils1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420625863, "dur":192, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420625458, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/kjkb_tils1.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420626056, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420626130, "dur":748, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm5.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420627313, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-config-api.h" }}
+,{ "pid":12345, "tid":2, "ts":1662921420626887, "dur":627, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420626127, "dur":1387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/bsp1_1_vm5.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420627515, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420627881, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420627936, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628138, "dur":360, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420627877, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/66ce_mscorlib3.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628499, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628585, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628736, "dur":201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628945, "dur":347, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420628582, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/7tcl_mscorlib11.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420629293, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420629411, "dur":452, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420629870, "dur":387, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420629376, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/cix7_gistration.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630258, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630386, "dur":145, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\histogram.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630347, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/7fn6_histogram.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630590, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630717, "dur":261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\backward_references_hq.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630987, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420630674, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/f4ii_erences_hq.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631068, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631161, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine_Debugger.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631157, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/bik9_e_Debugger.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631509, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631608, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/49ru_derFactory.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631719, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631834, "dur":50, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Runtime.Versioning\\VersioningHelper.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631797, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ii8y_ningHelper.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420631926, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632027, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/tihb_m_Debugger.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632122, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632206, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/20qe_re_CodeGen.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632316, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632394, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/75rg_y_Debugger.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632523, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632627, "dur":215, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger\\il2cpp-api-debugger.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632852, "dur":363, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420632593, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/iiy9_i-debugger.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633216, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633319, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/wgo5_unity-time.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633425, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633495, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/48lt_unity-rand.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633619, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633887, "dur":61, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-tls.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633956, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420633843, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/wb0p_mono-tls.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634029, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634115, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/9qw6_ono-publib.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634314, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634694, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-codeman.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634797, "dur":361, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-codeman.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635171, "dur":235, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420634689, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/ij7a_no-codeman.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635407, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635534, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\inflate.c" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635497, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/cp4h_inflate.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635678, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635817, "dur":199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1662921420636023, "dur":317, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420635775, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/ws2k_sicsModule.o" }}
+,{ "pid":12345, "tid":2, "ts":1662921420636341, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420636433, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_Android_arm32 q8q9/libil2cpp.so" }}
+,{ "pid":12345, "tid":2, "ts":1662921420636616, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662921420637459, "dur":8439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Documents/GitHub/testapp/android/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.sym.so" }}
+,{ "pid":12345, "tid":2, "ts":1662921420645935, "dur":38874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/Documents/GitHub/testapp/android/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.dbg.so" }}
+,{ "pid":12345, "tid":3, "ts":1662921420582726, "dur":757, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420583484, "dur":34126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420617623, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420617698, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420617853, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420617966, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420618088, "dur":2317, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\muv5_Posix1.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420620412, "dur":269, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420618074, "dur":2608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/odaw_osix1.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420620682, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621012, "dur":247, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\3hzq_c-api0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621266, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621008, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/79eh_-api0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621329, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621416, "dur":2002, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\oeez_ThreadPool0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420623425, "dur":386, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420621412, "dur":2400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/aowk_Pool0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420623812, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420624023, "dur":1970, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"l3s9\\7h2r_eglib0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420626004, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420624020, "dur":2057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 l3s9/w6jl_glib0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420626078, "dur":576, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420626659, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420626762, "dur":669, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420627439, "dur":420, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420626655, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/u60s_System1.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420627860, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420627954, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628044, "dur":207, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628258, "dur":366, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420627951, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/5ysx_mscorlib2.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628625, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628742, "dur":207, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628964, "dur":361, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420628705, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/kjp9_mscorlib1.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420629326, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420629596, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1662921420629826, "dur":417, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420629558, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/cd98_aluesTable.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630244, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630549, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\brotli_bit_stream.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630715, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630500, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/a2zh_bit_stream.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630788, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630908, "dur":58, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\common\\dictionary.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630869, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/mror_dictionary.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420630992, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631116, "dur":67, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631081, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/lii6_ClassTable.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631228, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631464, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/q2qd_e_Debugger.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631581, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631754, "dur":426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-metadata.h" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631728, "dur":467, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420631659, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/vk8n_e_Debugger.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632195, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632274, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/14za_on_CodeGen.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632391, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632465, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/2n1k_ersistence.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632575, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632660, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632656, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/2pft_RgctxTable.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632875, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632968, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32error-unity.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633077, "dur":64, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32error-unity.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420632963, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/ntsz_rror-unity.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633191, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633271, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-log-unity.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633383, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633267, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/dk8i_-log-unity.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633435, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633561, "dur":50, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\parse.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633525, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/ui82_parse.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633655, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633733, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/nv0m_monobitset.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633830, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633947, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-threads-coop.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634080, "dur":165, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420633910, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6t53_reads-coop.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634245, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634364, "dur":56, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-mmap-windows.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634428, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634328, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/y45o_ap-windows.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634479, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634558, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/zzch_ernal-hash.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634692, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634821, "dur":1163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\lock-free-array-queue.c" }}
+,{ "pid":12345, "tid":3, "ts":1662921420635988, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420634780, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/td4p_rray-queue.o" }}
+,{ "pid":12345, "tid":3, "ts":1662921420636214, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662921420636294, "dur":48579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420582757, "dur":732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420583489, "dur":34164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420617835, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420618059, "dur":2203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xv7m_tests1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420620269, "dur":281, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420618039, "dur":2511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/jdoe_ests1.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420620551, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420620655, "dur":575, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\3hzq_c-api3.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420621237, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420620652, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/wnrs_-api3.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420621476, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420621916, "dur":1327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\9tt6_vm-utils0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420623260, "dur":420, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420621912, "dur":1768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/tw1g_tils0.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420623681, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420623771, "dur":6604, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\mono-hash.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420630384, "dur":265, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420623765, "dur":6884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/p7jo_mono-hash.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420630650, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420630768, "dur":195, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\backward_references.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420630975, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420630732, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/jdq8_references.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631048, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631129, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/vn9r_d_Debugger.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631251, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631780, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Security.Policy\\Evidence.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631973, "dur":53, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Security.Policy\\Evidence.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420631776, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/x0bx_Evidence.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632074, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632218, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Configuration_Debugger.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632215, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/pldu_n_Debugger.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632429, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632510, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\Microsoft.Win32\\NativeMethods.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632649, "dur":50, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\Microsoft.Win32\\NativeMethods.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632506, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/vl5n_iveMethods.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632733, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632849, "dur":157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32semaphore-unity.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633013, "dur":132, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420632806, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/fmhy_hore-unity.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633146, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633262, "dur":325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\networking-unity.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633594, "dur":186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633226, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/7zpe_king-unity.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633781, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633861, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-threads.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634167, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-threads.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634307, "dur":174, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420633857, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/mhrd_no-threads.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634481, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634627, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634560, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/cmrj_mono-hwcap.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634684, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634771, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/da43_memfuncs.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634895, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634998, "dur":54, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\dlmalloc.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420634967, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/3x2s_dlmalloc.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635108, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635203, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/d38r_ThunkTable.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635312, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635423, "dur":58, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\trees.c" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635390, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/izlf_trees.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635501, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635570, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/57kb_gzwrite.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635623, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635742, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635884, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635813, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/kooq_o-counters.o" }}
+,{ "pid":12345, "tid":4, "ts":1662921420635942, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662921420636016, "dur":48870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420582774, "dur":719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420583493, "dur":34135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420617631, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420617726, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420617829, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420618028, "dur":2439, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xv7m_tests0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420620478, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420618012, "dur":2691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/01w3_ests0.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420620704, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621193, "dur":285, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\pnl1_metadata2.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621484, "dur":116, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621190, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/1xct_data2.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621601, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621771, "dur":877, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\l7w9_System2.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420622656, "dur":350, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420621767, "dur":1240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/rpnk_stem2.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420623007, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420623099, "dur":1201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\a0uo_System0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420624355, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_MsvcIntrinsics.h" }}
+,{ "pid":12345, "tid":5, "ts":1662921420624309, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420623096, "dur":1453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/9mif_stem0.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420624550, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420624926, "dur":289, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"l3s9\\7h2r_eglib3.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625223, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420624923, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 l3s9/lkww_glib3.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625297, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625384, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\rle8_utils0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625607, "dur":142, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625380, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/17s0_tils0.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625750, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625828, "dur":475, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm1.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420626308, "dur":372, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420625824, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/jv27_1_vm1.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420626681, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420626793, "dur":217, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420627017, "dur":385, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420626760, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/ehy8_System.Xml.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420627402, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420627556, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420627762, "dur":432, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420627520, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/da46_mscorlib6.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628195, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628312, "dur":190, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib14.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628510, "dur":348, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628277, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/ex3d_mscorlib14.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628859, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628983, "dur":214, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2cppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420629205, "dur":373, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420628931, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/8ruj_tCallStubs.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420629579, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420629707, "dur":226, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420629939, "dur":356, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420629660, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/lpm3_ieldValues.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420630296, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420630434, "dur":567, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\encode.c" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631009, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420630391, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/h49v_encode.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631115, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631287, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631204, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/ugvq_le_CodeGen.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631372, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631508, "dur":215, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.Net.NetworkInformation\\MacOsIPInterfaceProperties.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631731, "dur":291, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420631465, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/vn7x_Properties.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632023, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632106, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/w7wr_l_Debugger.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632228, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632342, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/n64w_b_Debugger.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632461, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632535, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/5kt5_Interop.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632600, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632682, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/yxeh_gistration.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632795, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632917, "dur":848, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32process-unity.c" }}
+,{ "pid":12345, "tid":5, "ts":1662921420633772, "dur":274, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420632879, "dur":1167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6ekm_cess-unity.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634046, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634137, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-proclib.c" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634465, "dur":137, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-proclib.c" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634610, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634133, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/4i7c_no-proclib.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634684, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634860, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634774, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/96pa_free-queue.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634917, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420634996, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6rso_atomic.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635112, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635265, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\__Generated.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635457, "dur":349, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635226, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/jk84__Generated.o" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635807, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662921420635897, "dur":48968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420582797, "dur":702, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420583499, "dur":34133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420617893, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420618062, "dur":2420, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\i2tf_os1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420620498, "dur":246, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420618006, "dur":2738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/rf5i_f_os1.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420620745, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420620834, "dur":552, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\r2wf_LibraryPAL0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420621393, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420620830, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/godk_yPAL0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420621449, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420621533, "dur":1218, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\l7w9_System1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420622761, "dur":345, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420621529, "dur":1578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/8dw9_stem1.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420623107, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420623201, "dur":1060, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\06d8_System3.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420624270, "dur":405, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420623198, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/p2af_stem3.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420624676, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420624771, "dur":1017, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\p6di_codegen0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420625794, "dur":460, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420624768, "dur":1487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/dtcj_egen0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420626255, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420626377, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420626554, "dur":366, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420626341, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/jevk_nityEngine.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420626921, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627036, "dur":180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627225, "dur":380, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627003, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/1tks_System.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627605, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627727, "dur":252, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627987, "dur":405, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420627691, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/c2jq_mscorlib5.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420628392, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420628517, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib12.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420628755, "dur":381, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420628483, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/s9f9_mscorlib12.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629137, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629225, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629381, "dur":168, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629561, "dur":426, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629221, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/aql5_vokerTable.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420629987, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630114, "dur":234, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\static_dict.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630078, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/u3zd_tatic_dict.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630376, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630508, "dur":261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\compress_fragment.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630776, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630474, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/89o3_s_fragment.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630843, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631026, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420630932, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/qjw4_sEmulation.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631103, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631193, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/gt98_e_Debugger.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631307, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631431, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System.Core\\System.IO.MemoryMappedFiles\\MemoryMapImpl.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631488, "dur":173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System.Core\\System.IO.MemoryMappedFiles\\MemoryMapImpl.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631763, "dur":1304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Internal\\PlatformEnvironment.h" }}
+,{ "pid":12345, "tid":6, "ts":1662921420633076, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\il2cpp-config-platforms.h" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631668, "dur":1766, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420631425, "dur":2010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/pxfs_oryMapImpl.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420633435, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420633513, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420633510, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/orrt_ethodTable.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420633912, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634121, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-property-hash.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634117, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/77cs_perty-hash.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634237, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634358, "dur":89, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-mmap.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634454, "dur":145, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634321, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/kemf_mono-mmap.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634600, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634682, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/hsh2_-hashtable.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634795, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634908, "dur":1083, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\hazard-pointer.c" }}
+,{ "pid":12345, "tid":6, "ts":1662921420635998, "dur":293, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420634872, "dur":1420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/p5h0_rd-pointer.o" }}
+,{ "pid":12345, "tid":6, "ts":1662921420636292, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662921420636372, "dur":48497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420582819, "dur":686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420583505, "dur":34130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420617642, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420617827, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420617885, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420618026, "dur":2142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yx1k_Win320.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420620175, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420618010, "dur":2391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/rf8g_in320.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420620401, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420620609, "dur":516, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\utvb_Generic2.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420621132, "dur":374, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420620605, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/3rlq_eric2.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420621507, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420621769, "dur":1431, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\pnl1_metadata0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420623207, "dur":369, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420621766, "dur":1811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/vvrs_data0.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420623577, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420623668, "dur":902, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\06d8_System1.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420624577, "dur":333, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420623664, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/j0pe_stem1.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420624911, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420624994, "dur":117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"l3s9\\7h2r_eglib2.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420624991, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 l3s9/i1le_glib2.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420625156, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420625242, "dur":748, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm4.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420625996, "dur":403, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420625239, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/88ej_1_vm4.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420626400, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420626523, "dur":199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420626828, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils\\dynamic_array.h" }}
+,{ "pid":12345, "tid":7, "ts":1662921420626732, "dur":452, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420626483, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/nmrw_udioModule.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420627185, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420627319, "dur":199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420627525, "dur":428, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420627284, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zxrb_mscorlib8.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420627954, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628073, "dur":224, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib16.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628305, "dur":378, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628038, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/0kri_mscorlib16.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628684, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628825, "dur":243, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420629076, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420628787, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/79t2_mscorlib.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420629475, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420629591, "dur":202, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420629801, "dur":322, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420629555, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/y0h0_aluesTable.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630124, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630238, "dur":57, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\memory.c" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630207, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/o1mr_memory.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630313, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630439, "dur":304, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\compress_fragment_two_pass.c" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630752, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630402, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/l7sh_t_two_pass.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630842, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630967, "dur":169, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm-utils\\icalls\\mscorlib\\System.Threading\\Interlocked.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420631143, "dur":725, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420630929, "dur":939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/652k_nterlocked.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420631869, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420631991, "dur":124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Runtime.Remoting.Activation\\ActivationServices.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632122, "dur":290, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420631945, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/fpbk_onServices.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632413, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632495, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zo9o_ty_CodeGen.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632614, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632730, "dur":2416, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\mini\\debugger-agent.c" }}
+,{ "pid":12345, "tid":7, "ts":1662921420635158, "dur":472, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420632697, "dur":2933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/mz5o_gger-agent.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420635630, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420635709, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/2uk5_gzclose.o" }}
+,{ "pid":12345, "tid":7, "ts":1662921420635762, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662921420635887, "dur":48981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420582845, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420583510, "dur":34109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420617622, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420618040, "dur":1413, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yx1k_Win321.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1662921420619461, "dur":127, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420618019, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/uyiz_in321.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420619589, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420619671, "dur":454, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\3a56_OSX0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620206, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-config.h" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620458, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\WaitStatus.h" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620131, "dur":609, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420619669, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ey4y__OSX0.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620740, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620830, "dur":1953, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\t4u4_libil2cpp0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1662921420622793, "dur":415, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420620826, "dur":2382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/nxxl_2cpp0.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420623209, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420623401, "dur":8895, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\extra\\gc.c" }}
+,{ "pid":12345, "tid":8, "ts":1662921420632306, "dur":369, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420623396, "dur":9280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 aa4b/6ras_gc.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420632676, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420632793, "dur":404, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32socket-unity.c" }}
+,{ "pid":12345, "tid":8, "ts":1662921420633204, "dur":328, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420632758, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/mmcy_cket-unity.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420633533, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420633772, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/tkjo_mono-uri.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420633899, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634018, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6mqb_mono-sha1.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634151, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634264, "dur":51, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-os-semaphore-win32.c" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634227, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/mkdh_hore-win32.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634374, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634452, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/5etg_log-common.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634567, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634715, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634649, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/kwkj_strenc.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634768, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634869, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/nnss_json.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420634968, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635048, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/d3xq_interTable.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635162, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635274, "dur":190, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635635, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\Android\\Include\\BaselibPlatformSpecificEnvironment.h" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635475, "dur":390, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635238, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/648u_nalsModule.o" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635866, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662921420635940, "dur":48953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420582870, "dur":643, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420583514, "dur":34108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420617628, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420617823, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420618068, "dur":2213, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yx1k_Win323.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420620288, "dur":315, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420618042, "dur":2562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/gtks_in323.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420620604, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420620803, "dur":163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\utvb_Generic0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420620972, "dur":184, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420620799, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/hxjx_eric0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420621157, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420621254, "dur":683, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yq15_Android0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420621944, "dur":181, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420621237, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/y3wo_roid0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420622125, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420622216, "dur":663, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\06d8_System0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420622887, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420622209, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/0oy3_stem0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420623108, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420623220, "dur":1082, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\06d8_System2.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420624309, "dur":373, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420623217, "dur":1466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/mj0w_stem2.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420624684, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420624788, "dur":332, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xqg9_WinRT1.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420625126, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420624784, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/vvue_inRT1.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420625364, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420625547, "dur":317, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm6.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420625870, "dur":386, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420625544, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/eb0j_1_vm6.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420626257, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420626394, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule1.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420626586, "dur":485, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420626352, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zgax_oreModule1.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627072, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627173, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627234, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627774, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Internal\\PlatformDetection.h" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627472, "dur":443, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627169, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/py3r_figuration.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627916, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420628018, "dur":469, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib17.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420628494, "dur":375, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420627987, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/l0u6_mscorlib17.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420628870, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420628958, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420629112, "dur":203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420629322, "dur":386, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420628955, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zzta_apperTable.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420629709, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630197, "dur":484, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\metablock.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630688, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630154, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/fju2_metablock.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630765, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630888, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\dec\\decode.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631126, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420630846, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/hcpg_decode.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631178, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631416, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PhysicsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631413, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/wxn9_le_CodeGen.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631532, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631659, "dur":62, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\Microsoft.Win32\\NativeMethods.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631728, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631615, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/hngc_iveMethods.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631785, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631869, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/bq3t_RealProxy.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420631990, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632113, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Runtime\\RuntimeImports.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632345, "dur":248, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632074, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/094n_imeImports.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632596, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632737, "dur":83, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-log-android.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632699, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/7b5l_og-android.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632877, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420633020, "dur":405, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\mini\\debugger-engine.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420633431, "dur":399, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420632982, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/vtqu_ger-engine.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420633831, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420633952, "dur":54, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-stdlib.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420633918, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/z7xa_ono-stdlib.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634056, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634221, "dur":55, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-poll.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634184, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/o1lu_mono-poll.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634328, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634457, "dur":70, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-math.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634416, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/5bav_mono-math.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634539, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634643, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-dl.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634826, "dur":65, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-dl.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634899, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634639, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/xpur_mono-dl.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420634962, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635083, "dur":244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\profiler.c" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635336, "dur":338, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635046, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/m1b7_profiler.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635675, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635760, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/odep_crc32.o" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635845, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662921420635926, "dur":48972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420582895, "dur":623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420583518, "dur":34099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420617624, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420617709, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420617826, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420618045, "dur":2244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\yx1k_Win322.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420620299, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420618026, "dur":2601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/daaa_in322.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420620627, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420620896, "dur":580, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xv7m_tests2.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420621607, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_Msvc.h" }}
+,{ "pid":12345, "tid":10, "ts":1662921420621483, "dur":385, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420620891, "dur":978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/mwyw_ests2.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420621869, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420621950, "dur":286, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\v9jw_System0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420621946, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ijb8_stem0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420622289, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420622374, "dur":307, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\9a14_e.Remoting0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420622691, "dur":324, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420622369, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/k77f_ting0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420623015, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420623097, "dur":1045, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\7xrg_System0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420624149, "dur":151, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420623094, "dur":1206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/w633_stem0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420624301, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420624385, "dur":579, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\2n1f_gc0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420624971, "dur":357, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420624381, "dur":948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/6k2d_f_gc0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420625329, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420625408, "dur":2085, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\to61_vm3.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420627510, "dur":523, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420625405, "dur":2629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/5p40_1_vm3.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628034, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628150, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib15.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628377, "dur":384, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628113, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/f5nu_mscorlib15.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628762, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628881, "dur":197, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420629087, "dur":390, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420628835, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/zzuz_o.Security.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420629477, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420629659, "dur":217, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420629882, "dur":298, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420629613, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/9wx3_TypeValues.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630181, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630296, "dur":71, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\literal_cost.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630258, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/g2yg_teral_cost.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630390, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630517, "dur":106, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\cluster.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630630, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630476, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/l2v0_cluster.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630686, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630798, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\dec\\state.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630761, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/0uv3_state.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420630984, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631069, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/b9ob_cketBridge.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631137, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631216, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PhysicsModule_Debugger.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631375, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631213, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/6p8m_e_Debugger.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631459, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631581, "dur":59, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.IO\\FileSystemWatcher.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631540, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/h3oa_temWatcher.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631691, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631765, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/3lco_e_Debugger.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631859, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420631930, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ohco_Context.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632041, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632125, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Xml_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632121, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/2kqb_ml_CodeGen.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632265, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632352, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632350, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/byer_ib_CodeGen.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632478, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632550, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/emke_efinitions.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632632, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632746, "dur":112, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-hwcap-arm.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632706, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/72ti_-hwcap-arm.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632912, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633079, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420632992, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/c2oc_vent-unity.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633136, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633287, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-threads-unity.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633427, "dur":180, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633246, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6qfc_eads-unity.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633608, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633928, "dur":136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-threads-state-machine.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634070, "dur":153, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420633893, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/sns6_te-machine.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634223, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634307, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/dngd_interfaces.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634446, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634585, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/dt21_no-filemap.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634699, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634818, "dur":1170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\lock-free-alloc.c" }}
+,{ "pid":12345, "tid":10, "ts":1662921420635993, "dur":185, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420634781, "dur":1397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/d3x0_free-alloc.o" }}
+,{ "pid":12345, "tid":10, "ts":1662921420636178, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662921420636256, "dur":48647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420582921, "dur":600, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420583522, "dur":34112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420617635, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420617818, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420617925, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618051, "dur":749, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xv7m_tests3.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618808, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618036, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/pf9e_ests3.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618896, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618988, "dur":643, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\muv5_Posix3.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420619637, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420618983, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/a8bp_osix3.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420619748, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420619842, "dur":702, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\4rh9_Lumin0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420620551, "dur":148, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420619837, "dur":862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/fzor_umin0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420620699, "dur":609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420621313, "dur":1006, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\i2tf_os0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420622329, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420621309, "dur":1254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/owu0_f_os0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420622563, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420622651, "dur":1496, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\jwjy_em.Runtime0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420624155, "dur":349, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420622645, "dur":1859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/d6bv_time0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420624504, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420624654, "dur":331, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\krd3_System0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420624994, "dur":117, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420624651, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/witb_stem0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420625112, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420625202, "dur":354, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\js2s_System.Net0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420625563, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420625198, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/33v8_.Net0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420625891, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420626325, "dur":526, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\rle8_utils2.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420626859, "dur":146, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420626322, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/n2ut_tils2.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627006, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627128, "dur":193, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Core.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627328, "dur":376, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627095, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/q22v_ystem.Core.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627705, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627787, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib4.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627862, "dur":1463, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib4.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420629332, "dur":433, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420627784, "dur":1982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/rmg2_mscorlib4.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420629766, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420629851, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630042, "dur":216, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630265, "dur":332, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420629846, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/uq7o_Generics.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630598, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630893, "dur":66, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\dec\\bit_reader.c" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630848, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/sbuj_bit_reader.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420630985, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631097, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631253, "dur":103, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\mono\\MonoPosixHelper.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631384, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-metadata.h" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631363, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631198, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/hne2_osixHelper.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631464, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631550, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/46se_le_CodeGen.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631672, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631869, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631788, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/mxba_ceProvider.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420631924, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632011, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/e7se_ngServices.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632114, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632188, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/0ys1_e_Debugger.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632293, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632434, "dur":179, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\Mono.Unity\\UnityTls.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632619, "dur":262, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632396, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/rz5s_UnityTls.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632882, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633000, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\console-unity.c" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633129, "dur":104, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420632966, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/0yll_sole-unity.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633233, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633394, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633314, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/xf8f_o-dl-unity.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633454, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633527, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/nype_networking.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633657, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633737, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/f2iw_value-hash.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420633839, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634168, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6fgp_ib-windows.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634282, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634356, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/3qwq_mono-md5.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634461, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634554, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-io-portability.c" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634719, "dur":296, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-io-portability.c" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635021, "dur":254, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420634549, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/rli2_ortability.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635276, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635373, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/deah_zutil.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635460, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635564, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\infback.c" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635527, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/xw83_infback.o" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635736, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420635819, "dur":880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420636704, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420636776, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662921420636836, "dur":48044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420582944, "dur":582, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420583526, "dur":34086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420617622, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420617691, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420617813, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420617921, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420618051, "dur":825, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\gm0j_System0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420618898, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420618029, "dur":938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/mu8q_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420618967, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420619071, "dur":1199, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\muv5_Posix0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420620277, "dur":247, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420619068, "dur":1456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/luzd_osix0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420620525, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420620621, "dur":469, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\utvb_Generic1.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420621097, "dur":265, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420620617, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/08a8_eric1.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420621363, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420621446, "dur":709, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\pnl1_metadata1.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622160, "dur":328, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420621443, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/ye2a_data1.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622489, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622575, "dur":253, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\674p_m.Security0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622834, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622571, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/vx0i_rity0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622903, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622986, "dur":553, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\ckn2_System0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420623548, "dur":292, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420622982, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/utnm_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420623841, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420623924, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\adler32.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420623920, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/ad82_adler32.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624035, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624111, "dur":536, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"tapa\\xqg9_WinRT0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624655, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624108, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/sckw_inRT0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624773, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624855, "dur":578, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\GenericMethods.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420625660, "dur":546, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_Msvc.h" }}
+,{ "pid":12345, "tid":12, "ts":1662921420625441, "dur":896, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420624851, "dur":1487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/hlk5_ricMethods.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420626338, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420626467, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420626697, "dur":423, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420626430, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/ox1f_CoreModule.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420627121, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420627240, "dur":890, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib9.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420628137, "dur":401, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420627203, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/kdvz_mscorlib9.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420628539, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420628696, "dur":480, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib10.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420629183, "dur":414, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420628650, "dur":948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/me9w_mscorlib10.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420629598, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420629716, "dur":205, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics1.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420629928, "dur":380, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420629684, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/9r42_Generics1.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630309, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630437, "dur":125, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\dictionary_hash.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630399, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/enir_onary_hash.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630579, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630704, "dur":61, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\bit_cost.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630773, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630660, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/uv11_bit_cost.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630827, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630946, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\xamarin-android\\xamarin_getifaddrs.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420630910, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/0gyb_getifaddrs.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631059, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631142, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/bjt5_ed_CodeGen.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631257, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631480, "dur":96, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.Threading\\Semaphore.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631586, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631431, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 tapa/az7h_Semaphore.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631649, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631728, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/v5q0_le_CodeGen.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631831, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420631918, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/b7oh_le_CodeGen.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632024, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632176, "dur":675, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\il2cpp-config-api-platforms.h" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632159, "dur":714, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632097, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/9gbn_em_CodeGen.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632873, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632980, "dur":227, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\w32event-unity.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420633318, "dur":590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-error-internals.h" }}
+,{ "pid":12345, "tid":12, "ts":1662921420633214, "dur":897, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420632946, "dur":1166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/tgrw_vent-unity.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634112, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634208, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/6ar8_mono-path.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634338, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634419, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/16ob_ono-logger.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634541, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634669, "dur":166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\mono-error.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634842, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420634632, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 nwd5/he4g_mono-error.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635096, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635195, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 q8q9/hwbr_efinitions.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635305, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635380, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/zkr0_uncompr.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635431, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635542, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\User\\Documents\\GitHub\\testapp\\android\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\inffast.c" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635507, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/qvud_inffast.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635662, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635746, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 o1sj/g5zz_deflate.o" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635804, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662921420635880, "dur":48986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662921420695345, "dur":3743, "ph":"X", "name": "ProfilerWriteOutput" }
+,
